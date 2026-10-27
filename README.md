@@ -82,12 +82,16 @@ python RAG_TXT.py
 
 ## ❓ 常见问题 FAQ
 
-Q1：CPU运行速度很慢怎么办？
+<details>
+<summary>Q1：CPU运行速度很慢怎么办？</summary>
 A1：开启Ollama GPU加速；或者更换更小参数量模型（如deepseek-r1:7b、qwen:4b）。
-Q2：如何新增更多文档？
+</details><details>
+<summary>Q2：如何新增更多文档？</summary>
 A2：把文件放入对应文件夹，执行命令带上`--rebuild`重新构建向量库即可。
-Q3：如何切换其他LLM/Embedding模型？
+</details><details>
+<summary>Q3：如何切换其他LLM/Embedding模型？</summary>
 A3：直接修改代码内model_name参数，同步在ollama pull对应模型。
+</details>
 
 ## 🚀 后续扩展方向
 
